@@ -172,7 +172,7 @@ Both the baseline and partial-gap strategies experienced a prolonged drawdown ar
 
 SPY's overall growth also does not guarantee intraday profits, since part of its returns can occur overnight, when the strategy holds no positions. Volatility-targeted sizing may have amplified losses as leverage increased again when volatility declined. These are possible explanations, not confirmed causes.
 
-My Partial Gap modification was intended to address one related issue: the original strategy may react too slowly when SPY reverses an overnight gap. By reducing the gap adjustment from 100% to 50%, it allows earlier entries into such reversals. However, earlier entries can also produce more false signals. The modification slightly outperformed the baseline in the 2023–2026 test (+11.52% vs. +10.75%), but required more trades (804 vs. 697) and underperformed over the full seven years. Therefore, Partial Gap did not demonstrate a consistent improvement or solve the deterioration observed around 2025.
+My Partial Gap modification was intended to address one related issue: the original strategy may react too slowly when SPY reverses an overnight gap. By reducing the gap adjustment from 100% to 50%, it allows earlier entries into such reversals. However, earlier entries can also produce more false signals. Partial Gap did not demonstrate a consistent improvement or solve the deterioration observed around 2025.
 ## References
 
 1. Zarattini, C., Aziz, A. & Barbon, A. (2025). *Beat the Market: An Effective Intraday Momentum Strategy for S&P500 ETF (SPY).*
